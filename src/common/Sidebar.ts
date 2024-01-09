@@ -4,8 +4,7 @@ import { Component, Vue } from "vue-property-decorator";
 export default class Sidebar extends Vue {
   isHide: boolean = true;
   isAbout: boolean = true;
-  isEducation: boolean = true;
-  isExperience: boolean = true;
+  isEE: boolean = true;
   isreward: boolean = true;
   isQandA: boolean = true;
 
@@ -16,6 +15,9 @@ export default class Sidebar extends Vue {
   onClickAbout() {
     this.isAbout = !this.isAbout;
     this.$emit("onClickAbout", this.isAbout);
-    console.log("isabout", this.isAbout);
+  }
+  onClickEE() {
+    this.isEE = !this.isEE;
+    this.$emit("onClickEE", this.isEE);
   }
 }

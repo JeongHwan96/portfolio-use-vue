@@ -5,70 +5,70 @@
       <div class="sidebar-menu">
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickAbout" :class="{ showAbout: isAbout === false }">
+            <h3 @click="onClickAbout" :class="{ showAbout: isAbout === true }">
               About
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickEE" :class="{ showEE: isHide === true }">
               Education & Experience
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               Reward
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               Question & Answer
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               Developer PortFolio Ⅰ
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               Developer PortFolio Ⅱ
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               QE PortFolio Ⅰ
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               QE PortFolio Ⅱ
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               QE PortFolio Ⅲ
             </h3>
           </li>
         </ul>
         <ul class="Nav-List">
           <li class="Nav-Item">
-            <h3 @click="onClickChangeClass" :class="{ show: isHide === false }">
+            <h3 @click="onClickChangeClass" :class="{ show: isHide === true }">
               Contact
             </h3>
           </li>
